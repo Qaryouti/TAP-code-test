@@ -1,0 +1,306 @@
+nav {
+  text-align: right;
+  padding: 20px 90px;
+  
+}
+
+h1 {
+  font-size: 3em;
+  color: #4687a5;
+
+}
+
+#artcl {
+  color: black;
+}
+
+.home {
+  margin: 0px;
+  padding: 10px;
+  /* border: 1px solid; */
+  display: inline;
+  float: inline;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  color: #D1884F;
+
+}
+
+.about {
+  margin: 0px;
+  padding: 10px;
+  /* border: 1px solid; */
+  display: inline;
+  float: inline;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+
+}
+
+.contact {
+  margin: 0px;
+  padding: 10px;
+  /* border: 1px solid; */
+  display: inline;
+  float: inline;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+div {
+ 
+  text-align: left;
+}
+
+.divTable .divTableCell {
+
+  padding: 50px 50px;
+  color: #008AAA;
+  font-family: 'Poppins', sans-serif;
+  /* border: 1px solid #f60b0b; */
+}
+
+.tableFootStyle {
+  font-weight: bold;
+}
+
+.divTable {
+  display: table;
+}
+
+.divTableRow {
+  display: table-row;
+}
+
+.divTableHeading {
+  display: table-header-group;
+}
+
+.divTableCell,
+.divTableHead {
+  display: table-cell;
+}
+
+.divTableHeading {
+  display: table-header-group;
+}
+
+.divTableFoot {
+  display: table-footer-group;
+}
+
+.divTableBody {
+  display: table-row-group;
+}
+
+.pfimage {
+  width: 350px;
+  height: 350px;
+  border-bottom-left-radius: 40%;
+  box-shadow: -15px 5px #81d4e8;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+
+.imgCell {
+  vertical-align: middle;
+  text-align: center;
+  margin: 20%;
+  padding-left: 10%;
+}
+
+#span {
+  color: #D1884F;
+}
+
+.btnHire {
+
+  background-color: #008AAA;
+  border-radius: 5px;
+  border: 0px solid;
+  color: white;
+}
+
+.btnProjects {
+  background-color: #fbfbfb;
+  margin-left: 20px;
+  border-radius: 5px;
+  color: #008AAA;
+  border: 1px solid;
+  border-color: #008AAA;
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;      
+    font-size: 9pt;
+    width:130vw;
+    /* background: green; */
+
+  }
+
+  .divTable .divTableCell {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    color: #008AAA;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    width: 150vw;
+    /* border: 1px solid #f60b0b; */
+    margin: 2px;
+  }
+
+  .btnHire,
+  .btnProjects {
+    width: 70vw;
+    font-size: 2em;
+    margin-bottom: 20px;
+
+  }
+
+  /* .btnProjects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    font-size: 1.5em;
+    margin: 5px;
+  } */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;      
+    font-size: 9pt;
+    width:90vw;
+    /* background: red; */
+
+  }
+
+  #btnsCell {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background: green; */
+  }
+
+  .btnHire,
+  .btnProjects {
+    width: 20vw;
+    font-size: 1.0em;
+    padding:  0px 10px ;
+    /* margin: 5px; */
+
+  }
+
+  /* .btnProjects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+    font-size: 1.5em;
+    margin: 5px;
+  } */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;      
+    font-size: 9pt;
+    width:90vw;
+    padding: 10px;
+    /* background: yellow; */
+
+  }
+  #btnsCell {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background: blue; */
+  }
+
+  .btnHire, 
+  .btnProjects{
+    width: 20vw;
+    font-size: 1.5em;
+    margin: 5px;
+
+  }
+
+  /* .btnProjects {
+    width: 20vw;
+    font-size: 1.5em;
+    margin: 5px;
+  } */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;      
+    font-size: 9pt;
+    width:90vw;
+    padding: 10px;
+    /* background: blue; */
+
+  }
+
+  .btnHire {
+    padding: 0px 15px;
+    font-size: 1.5em;
+    margin: 5px;
+  }
+
+  .btnProjects {
+    padding: 0px 15px;
+    /* width: 20vw; */
+    font-size: 1.5em;
+    margin: 5px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
